@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
-[https://rickandmortyproject-9601c.web.app](https://rickandmortyproject-9601c.web.app)
+This project was deployed with firebase[https://rickandmortyproject-9601c.web.app](https://rickandmortyproject-9601c.web.app)
 
 ## Development server
 
