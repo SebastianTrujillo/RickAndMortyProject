@@ -1,0 +1,40 @@
+.main {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.main__characters {
+    margin-top: 16px;
+    margin-left: 40px;
+}
+
+.main__characters__character {
+    display: flex;
+    flex-direction: row; 
+    background-color: #E8FCDE;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 100%;
+}
+
+
+.character--img {
+    height: 80px;
+    margin: 10px;
+}
+
+
+.character--detail {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+button {
+    margin: 30px;
+}
+
+.main__scroll {
+    height: 1000px;
+}

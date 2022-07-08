@@ -1,0 +1,10 @@
+<div class="container">
+	<div class="row">
+		<div class="col">
+			<input #inputSearch autofocus type = "text" (keyup) = "clearSearch(inputSearch.value)"/>
+		</div>
+		<div class="col">
+			<button (click)="search(inputSearch.value)" type="button">Search</button>
+		</div>
+	</div>
+</div>

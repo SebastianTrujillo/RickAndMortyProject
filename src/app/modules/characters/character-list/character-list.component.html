@@ -1,0 +1,15 @@
+<div class="justify-content-center main" infinite-scroll (scrolled)="onScrollDown()">
+    <div class="main__characters" *ngFor="let character of characters">
+        <div class="main__characters__character">
+            <div>
+                <img class="character--img" [src]="character.image"/>
+            </div>
+            <div class="character--detail">
+                <div>{{ character.name | slice: 0:16}}</div>
+                <div>{{ character.species | slice: 0:16}}</div>
+                <div>{{ character.gender | slice: 0:16}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="main__scroll"></div>
+</div>
